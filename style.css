@@ -1,5 +1,28 @@
+@media (max-width: 768px) {
+    /* Estilos para telas menores, como smartphones */
+}
+  
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Estilos para tablets */
+}
+  
+@media (min-width: 1025px) {
+    /* Estilos para telas maiores, como desktops */
+}
+
+:root{
+    --cor_botão_clicado: #773d4e;
+    --cor_botão_n_clicado:#d1dec1;
+}
+
 body{
     background-color: #773d4e;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+main{
+    border: solid #6e253e 2px;
+    padding-left: 495px;    
 }
 
 h1{
@@ -7,8 +30,18 @@ h1{
     text-align: center;
 }
 
+button{
+    background-color: #d1dec1;
+    border: solid #6e253e 2px;
+    border-radius: 20%;
+    color: #6e253e;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
 .principal{
     border: solid #a56d7c 2px;
+    background-color: #c3d8b3;
     text-align: center;
     height: 500px;
     width: 400px;
@@ -16,9 +49,3 @@ h1{
     padding: 10px;
 }
 
-button{
-    background-color: #d1dec1;
-    border: solid #6e253e 2px;
-    border-radius: 20%;
-    color: #6e253e;
-}
